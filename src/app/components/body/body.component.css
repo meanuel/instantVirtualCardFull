@@ -1,6 +1,6 @@
 .targ {
-    height: 210px;
     background: linear-gradient(103.95deg, #FFAB5E -3.65%, #F7E53E 97.12%);
+    height: 100%;
 }
 
 .btn-targ {
@@ -9,4 +9,29 @@
 
 .bg-progress {
     background: #51D676;
+}
+
+.desplegar {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #2D77FF;
+}
+
+.separador {
+    border-left: black 3px solid;
+}
+
+.btn-table {
+    border: 2px #2D77FF solid;
+    color: #2D77FF;
+    border-radius: 15%;
+}
+
+.borde {
+    border-radius: 15%;
+}
+
+.bg-contened {
+    background: #FBFBFB;
 }
