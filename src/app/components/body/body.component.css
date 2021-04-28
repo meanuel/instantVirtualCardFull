@@ -35,3 +35,58 @@
 .bg-contened {
     background: #FBFBFB;
 }
+
+.modal-content {
+    background: #202639;
+}
+
+.close span {
+    color: white;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+.green,
+.orange,
+.blue,
+.purple {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 0;
+}
+
+.purple {
+    background: #702DFF;
+}
+
+.blue {
+    background: #5690FF;
+}
+
+.orange {
+    background: #FF9A61;
+}
+
+.green {
+    background: #1CC34B;
+}
+
+.cancel {
+    background: rgba(223, 20, 20, 0.1);
+    border: solid 1px #DF1414;
+    color: #DF1414;
+}
+
+.freeze {
+    background: rgba(45, 119, 255, 0.1);
+    border: solid 1px #2D77FF;
+    ;
+    color: #2D77FF;
+}
+
+.invoice {
+    background: #4D5B81;
+}
