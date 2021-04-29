@@ -96,7 +96,7 @@
                             <button class="btn btn-primary borde" data-toggle="modal" data-target="#cargar">$ Cargar</button>
                         </div>
                         <div class="col">
-                            <button class="btn btn-table">Modificar</button>
+                            <button class="btn btn-table" data-toggle="modal" data-target="#modificar">Modificar</button>
                         </div>
                         <!-- Modal -->
                         <div class="modal fade" id="cargar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -192,6 +192,106 @@
                                                 <h5 class="text-white">33 Freemont street, San Fransisco</h5>
                                             </div>
                                             <button class="text-primary ml-auto border-0 bg-transparent">Modify</button>
+                                        </div>
+
+                                        <hr size="10px" color="white">
+
+                                        <span class="text-white">invoices</span>
+
+                                        <div class="d-flex mt-3">
+                                            <img src="../../assets/invoices.png" alt="">
+                                            <img class="mx-2" src="../../assets/invoices.png" alt="">
+                                            <img src="../../assets/invoices.png" alt="">
+
+                                            <div class="ml-auto">
+                                                <button class="btn text-white invoice"><i class="fas fa-upload"></i> Charge invoice</button>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Modal 2 -->
+                        <div class="modal fade" id="modificar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content container">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-white" id="exampleModalLabel">My Cards</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span clas="circle-close" aria-hidden="true"><i class="far fa-times-circle"></i></span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="d-flex m-0 p-0">
+                                            <img class="mx-auto" width="100%" src="../../assets/mastercard-modal.png" alt="error">
+                                        </div>
+
+
+                                        <div class="row mt-5">
+                                            <div class="col">
+                                                <h5 class="text-white">personalize your card</h5>
+                                            </div>
+                                            <div class="col d-flex">
+                                                <button class="green mr-3"></button>
+                                                <button class="orange mr-3"></button>
+                                                <button class="blue mr-3"></button>
+                                                <button class="purple"></button>
+                                            </div>
+                                        </div>
+
+                                        <hr size="10px" color="white">
+
+                                        <div class="d-flex mb-0">
+                                            <div>
+                                                <p class="text-white">Monthly budget</p>
+                                                <h4 class="text-white">Trip to london</h4>
+                                            </div>
+                                            <button class="text-primary ml-auto border-0 bg-transparent">Modify</button>
+                                        </div>
+
+                                        <hr size="10px" color="white">
+
+                                        <div class="d-flex">
+                                            <div>
+                                                <h4 class="text-white">Payers</h4>
+                                            </div>
+                                            <button class="btn text-white ml-auto border-0 btn-primary"><i class="far fa-plus-circle"></i> Add person</button>
+                                        </div>
+
+                                        <div class="d-flex mt-3">
+                                            <div>
+                                                <p class="font-weight-normal text-white m-0 p-0">name</p>
+                                                <span class="text-white m-0 p-0">Pedro perez</span>
+                                            </div>
+                                            <span class="text-white ml-auto my-auto">200.00 usd</span>
+                                            <button class="btn-verde rounded-pill py-0 px-4 ml-2">PAID</button>
+                                            <span class="text-white mx-2 my-auto">|</span>
+                                            <span class="text-white my-auto"><i class="far fa-trash-alt"></i></span>
+                                        </div>
+
+                                        <div class="d-flex mt-3">
+                                            <div>
+                                                <p class="font-weight-normal text-white m-0 p-0">name</p>
+                                                <span class="text-white m-0 p-0">Laura alonso</span>
+                                            </div>
+                                            <span class="text-white ml-auto my-auto">200.00 usd</span>
+                                            <button class="btn-verde rounded-pill py-0 px-4 ml-2">PAID</button>
+                                            <span class="text-white mx-2 my-auto">|</span>
+                                            <span class="text-white my-auto"><i class="far fa-trash-alt"></i></span>
+                                        </div>
+
+                                        <div class="d-flex mt-3">
+                                            <div>
+                                                <p class="font-weight-normal text-white m-0 p-0">name</p>
+                                                <span class="text-white m-0 p-0">sam garcia</span>
+                                            </div>
+                                            <span class="text-white ml-auto my-auto">200.00 usd</span>
+                                            <button class="btn-verde rounded-pill py-0 px-4 ml-2">PAID</button>
+                                            <span class="text-white mx-2 my-auto">|</span>
+                                            <span class="text-white my-auto"><i class="far fa-trash-alt"></i></span>
                                         </div>
 
                                         <hr size="10px" color="white">
